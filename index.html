@@ -168,7 +168,7 @@ nav.main a:hover::after{right:0}
 .modal-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .thumb{position:relative;overflow:hidden}
 .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-/* ---- Лукбук ---- */
+/* ---- Визии ---- */
 .lookbook{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .lb-nav{display:flex;gap:8px}
 .lb-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
@@ -334,7 +334,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <span><b id="logoName">НИШКА</b><small id="logoSub"></small></span>
     </a>
     <nav class="main" aria-label="Основно меню">
-      <a href="#collection">Колекция</a><a href="#lookbook">Лукбук</a><a href="#about">За нас</a><a href="#contact">Контакти</a>
+      <a href="#collection">Колекция</a><a href="#lookbook">Визии</a><a href="#about">За нас</a><a href="#contact">Контакти</a>
     </nav>
     <div class="top-actions">
       <button class="icon-btn" id="cartBtn" aria-label="Количка">
@@ -347,7 +347,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     </div>
   </div>
   <div class="mobile-nav wrap" id="mobileNav" hidden>
-    <a href="#collection">Колекция</a><a href="#lookbook">Лукбук</a><a href="#about">За нас</a><a href="#contact">Контакти</a>
+    <a href="#collection">Колекция</a><a href="#lookbook">Визии</a><a href="#about">За нас</a><a href="#contact">Контакти</a>
   </div>
 </header>
 
@@ -383,7 +383,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
   <section class="lookbook" id="lookbook">
     <div class="wrap sec-head reveal">
-      <div><div class="eyebrow">Лукбук</div><h2 id="lbTitle"></h2><p class="lead" id="lbText"></p></div>
+      <div><div class="eyebrow">Визии</div><h2 id="lbTitle"></h2><p class="lead" id="lbText"></p></div>
       <div class="lb-nav"><button class="icon-btn" id="lbPrev" aria-label="Назад"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M15 6l-6 6 6 6"/></svg></button><button class="icon-btn" id="lbNext" aria-label="Напред"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></button></div>
     </div>
     <div class="lb-track" id="lbTrack"></div>
@@ -753,7 +753,7 @@ $("#cartBtn").addEventListener("click", openCart);
 $("#menuBtn").addEventListener("click", () => { const m = $("#mobileNav"), open = m.hidden; m.hidden = !open; $("#menuBtn").setAttribute("aria-expanded", open); });
 $("#mobileNav").addEventListener("click", e => { if (e.target.tagName==="A"){ $("#mobileNav").hidden = true; $("#menuBtn").setAttribute("aria-expanded", false); } });
 
-/* ---------- Лукбук ---------- */
+/* ---------- Визии ---------- */
 const LB = C.lookbook;
 $("#lbTitle").textContent = LB.title; $("#lbText").textContent = LB.text;
 $("#lbTrack").innerHTML = LB.looks.map(l => {

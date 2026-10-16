@@ -8,7 +8,7 @@
    - сменяйте само текста между кавичките "..."
    - не трийте запетаите в края на редовете
    - цените са числа без кавички, с точка за стотинките: 59.90
-   - снимките са в папка img/; в полето image пишете "img/име-на-файла.jpg"
+   - снимките са до този файл; в полето image пишете само "име-на-файла.jpg"
    ===================================================================== */
 
 window.CONTENT = {
@@ -35,7 +35,7 @@ window.CONTENT = {
     words: ["бавна.", "честна.", "ленена.", "твоя."],
     text: "Шием малки серии от лен и памук в български ателиета. Всяка дреха е направена да се носи години, не сезон.",
     buttonMain: "Виж колекцията",
-    buttonSecond: "Разгледай лукбука",
+    buttonSecond: "Разгледай визиите",
     /* слайдовете вдясно: product = id на продукт от списъка по-долу (ползва се неговата снимка) */
     slides: [
       { label: "Есен 2026",        title: "Рокля „Лавандула“",  product: "d2" },
@@ -54,83 +54,83 @@ window.CONTENT = {
        styles: "clean", "color", "relaxed"
   */
   products: [
-    { id: "d2", name: "Рокля „Лавандула“", category: "Дамско", image: "img/rokla-lavandula.jpg",
+    { id: "d2", name: "Рокля „Лавандула“", category: "Дамско", image: "rokla-lavandula.jpg",
       price: 119, oldPrice: 0, badge: "Нов", material: "100% лен, 210 г/м²",
       text: "Дълга рокля с яка, копчета от черупка и широка разкроена пола, която се върти при всяка стъпка.",
       sizes: ["XS","S","M","L","XL"], occasions: ["party","daily"], styles: ["color","relaxed"] },
 
-    { id: "d1", name: "Рокля „Пясък“", category: "Дамско", image: "img/rokla-pyasak.jpg",
+    { id: "d1", name: "Рокля „Пясък“", category: "Дамско", image: "rokla-pyasak.jpg",
       price: 79, oldPrice: 0, badge: "", material: "100% лен",
       text: "Права рокля без ръкави в цвят на пясък. Изчистена, лека и подходяща за всеки ден.",
       sizes: ["XS","S","M","L","XL"], occasions: ["daily","work","travel"], styles: ["clean"] },
 
-    { id: "d3", name: "Рокля „Керемида“", category: "Дамско", image: "img/rokla-keremida.jpg",
+    { id: "d3", name: "Рокля „Керемида“", category: "Дамско", image: "rokla-keremida.jpg",
       price: 89, oldPrice: 0, badge: "", material: "лен и памук 55/45",
       text: "Рокля-риза с колан, два големи джоба и копчета от кокосова черупка.",
       sizes: ["XS","S","M","L","XL"], occasions: ["work","daily"], styles: ["color","clean"] },
 
-    { id: "d4", name: "Рокля „Маслина“", category: "Дамско", image: "img/rokla-maslina.jpg",
+    { id: "d4", name: "Рокля „Маслина“", category: "Дамско", image: "rokla-maslina.jpg",
       price: 59, oldPrice: 74, badge: "Промо", material: "100% лен, колан от юта",
       text: "Маслинена рокля с волани на раменете и плетен колан от юта с дървени мъниста.",
       sizes: ["XS","S","M","L"], occasions: ["party","travel","daily"], styles: ["color","relaxed"] },
 
-    { id: "w1", name: "Риза „Перла“", category: "Дамско", image: "img/bluza-perla.jpg",
+    { id: "w1", name: "Риза „Перла“", category: "Дамско", image: "bluza-perla.jpg",
       price: 65, oldPrice: 0, badge: "", material: "лен и коприна",
       text: "Бяла риза без ръкави с копчета от седеф. Носи се и в офиса, и вечер.",
       sizes: ["XS","S","M","L","XL"], occasions: ["work","party"], styles: ["clean"] },
 
-    { id: "t1", name: "Панталон „Слънце“", category: "Дамско", image: "img/pantalon-slance.jpg",
+    { id: "t1", name: "Панталон „Слънце“", category: "Дамско", image: "pantalon-slance.jpg",
       price: 59, oldPrice: 0, badge: "Нов", material: "100% лен",
       text: "Жълт панталон с ластик и връзка на талията, скъсен над глезена.",
       sizes: ["XS","S","M","L","XL"], occasions: ["daily","travel"], styles: ["color","relaxed"] },
 
-    { id: "t2", name: "Панталон „Мъгла“", category: "Дамско", image: "img/pantalon-magla.jpg",
+    { id: "t2", name: "Панталон „Мъгла“", category: "Дамско", image: "pantalon-magla.jpg",
       price: 69, oldPrice: 0, badge: "", material: "100% лен, изпран с камък",
       text: "Широк сив панталон с набрана талия. Мек като пижама, но изглежда изискано.",
       sizes: ["XS","S","M","L","XL"], occasions: ["daily","travel"], styles: ["relaxed","clean"] },
 
-    { id: "m1", name: "Риза „Индиго“", category: "Мъжко", image: "img/riza-indigo.jpg",
+    { id: "m1", name: "Риза „Индиго“", category: "Мъжко", image: "riza-indigo.jpg",
       price: 69, oldPrice: 0, badge: "", material: "100% лен, боядисан с индиго",
       text: "Тъмносиня ленена риза с дълъг ръкав. Индигото избледнява красиво с времето.",
       sizes: ["S","M","L","XL","XXL"], occasions: ["work","daily"], styles: ["clean"] },
 
-    { id: "m2", name: "Риза „Планина“", category: "Мъжко", image: "img/riza-planina.jpg",
+    { id: "m2", name: "Риза „Планина“", category: "Мъжко", image: "riza-planina.jpg",
       price: 69, oldPrice: 0, badge: "Нов", material: "100% лен с релефна тъкан",
       text: "Синя риза с жива текстура. Най-хубава е с навити ръкави.",
       sizes: ["S","M","L","XL","XXL"], occasions: ["travel","daily","party"], styles: ["relaxed","clean"] },
 
-    { id: "m3", name: "Риза „Листа“", category: "Мъжко", image: "img/riza-lista.jpg",
+    { id: "m3", name: "Риза „Листа“", category: "Мъжко", image: "riza-lista.jpg",
       price: 55, oldPrice: 0, badge: "", material: "памук, ръчна щампа",
       text: "Светлосиня риза с отпечатани листа. За лятото и празниците.",
       sizes: ["S","M","L","XL","XXL"], occasions: ["party","travel"], styles: ["color"] },
 
-    { id: "m4", name: "Панталон „Камък“", category: "Мъжко", image: "img/pantalon-kamak.jpg",
+    { id: "m4", name: "Панталон „Камък“", category: "Мъжко", image: "pantalon-kamak.jpg",
       price: 75, oldPrice: 0, badge: "", material: "100% лен",
       text: "Светъл ленен панталон с маншети, които се навиват. Върви с всичко.",
       sizes: ["S","M","L","XL","XXL"], occasions: ["work","travel","party"], styles: ["clean","relaxed"] },
 
-    { id: "s1", name: "Кецове „Крачка“", category: "Обувки", image: "img/kecove-kracka.jpg",
+    { id: "s1", name: "Кецове „Крачка“", category: "Обувки", image: "kecove-kracka.jpg",
       price: 85, oldPrice: 0, badge: "Нов", material: "велур и текстил, подметка от естествен каучук",
       text: "Цветни кецове с каишка и червени връзки. Сглобени в малка работилница край Пловдив.",
       sizes: ["36","37","38","39","40","41","42","43","44"], occasions: ["daily","travel","party"], styles: ["color","relaxed"] },
 
-    { id: "k1", name: "Детска рокля „Поляна“", category: "Детско", image: "img/rokla-polyana.jpg",
+    { id: "k1", name: "Детска рокля „Поляна“", category: "Детско", image: "rokla-polyana.jpg",
       price: 45, oldPrice: 0, badge: "", material: "100% памук",
       text: "Детска рокля с волани и метални копчета. Издържа и на тичане по поляните.",
       sizes: ["3–4 г.","5–6 г.","7–8 г.","9–10 г."], occasions: ["party","daily"], styles: ["clean","relaxed"] }
   ],
 
-  /* ---------- ЛУКБУК ----------
+  /* ---------- ВИЗИИ ----------
      Големи снимки с визии. products = id на продуктите, които се виждат на снимката */
   lookbook: {
-    title: "Лукбук: есен в лен",
+    title: "Визии за есента",
     text: "Как носим „Нишка“ всеки ден. Натисни снимка, за да купиш визията.",
     looks: [
-      { image: "img/look-park.jpg",     title: "Неделя в парка",    products: ["d2"] },
-      { image: "img/look-studio.jpg",   title: "Мързелива събота",  products: ["t2"] },
-      { image: "img/look-planina.jpg",  title: "Към планината",     products: ["m2"] },
-      { image: "img/look-selo.jpg",     title: "Лято при баба",     products: ["k1"] },
-      { image: "img/look-gradina.jpg",  title: "Разходка в градината", products: ["m3"] }
+      { image: "look-park.jpg",     title: "Неделя в парка",    products: ["d2"] },
+      { image: "look-studio.jpg",   title: "Мързелива събота",  products: ["t2"] },
+      { image: "look-planina.jpg",  title: "Към планината",     products: ["m2"] },
+      { image: "look-selo.jpg",     title: "Лято при баба",     products: ["k1"] },
+      { image: "look-gradina.jpg",  title: "Разходка в градината", products: ["m3"] }
     ]
   },
 
@@ -140,14 +140,14 @@ window.CONTENT = {
     title: "Зимна колекция „Вълна и лен“",
     text: "Първите 50 поръчки получават ръчно ушит шал подарък.",
     date: "2026-12-01T10:00:00",
-    background: "img/tekstura.jpg"
+    background: "tekstura.jpg"
   },
 
   /* ---------- ЗА НАС ---------- */
   about: {
     title: "Шием по-малко, но по-добре",
     story: "„Нишка“ започна от един въпрос: защо дрехите, които купуваме, издържат един сезон? Решихме да шием малки серии от естествени материи, в български ателиета, на честна цена за хората, които ги правят.",
-    photos: ["img/platove.jpg", "img/smokini.jpg"],
+    photos: ["platove.jpg", "smokini.jpg"],
     values: [
       { title: "Естествени материи", text: "Лен и памук, без синтетика. Ленът се отглежда с малко вода и без пестициди." },
       { title: "Местно производство", text: "Работим с три семейни ателиета. Всяка дреха носи етикет с името на шивачката." },

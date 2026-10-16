@@ -117,7 +117,27 @@ window.CONTENT = {
     { id: "k1", name: "Детска рокля „Поляна“", category: "Детско", image: "img/rokla-polyana.jpg",
       price: 45, oldPrice: 0, badge: "", material: "100% памук",
       text: "Детска рокля с волани и метални копчета. Издържа и на тичане по поляните.",
-      sizes: ["3–4 г.","5–6 г.","7–8 г.","9–10 г."], occasions: ["party","daily"], styles: ["clean","relaxed"] }
+      sizes: ["3–4 г.","5–6 г.","7–8 г.","9–10 г."], occasions: ["party","daily"], styles: ["clean","relaxed"] },
+
+    { id: "k2", name: "Детска рокля „Жито“", category: "Детско", image: "img/detska-zhito.jpg",
+      price: 49, oldPrice: 0, badge: "Нов", material: "100% лен",
+      text: "Керемидена рокля с дълъг ръкав, копче от кокосова черупка отзад и панделка за коса в комплекта.",
+      sizes: ["2–3 г.","3–4 г.","5–6 г.","7–8 г."], occasions: ["daily","party"], styles: ["color"] },
+
+    { id: "k3", name: "Детска рокля „Цвете“", category: "Детско", image: "img/detska-cvete.jpg",
+      price: 59, oldPrice: 0, badge: "", material: "памук, ръчна бродерия",
+      text: "Кремава рокля с волан на гърдите и цвете, бродирано на ръка. За празници и снимки.",
+      sizes: ["2–3 г.","3–4 г.","5–6 г.","7–8 г."], occasions: ["party"], styles: ["clean"] },
+
+    { id: "k4", name: "Детска рокля „Ваканция“", category: "Детско", image: "img/detska-vakancia.jpg",
+      price: 39, oldPrice: 46, badge: "Промо", material: "100% памук",
+      text: "Бяла лятна рокля с паднали рамене и тъкани райета по волана и подгъва.",
+      sizes: ["4–5 г.","6–7 г.","8–9 г.","10–11 г."], occasions: ["travel","daily"], styles: ["relaxed","color"] },
+
+    { id: "k5", name: "Детска рокля „Слънчице“", category: "Детско", image: "img/detska-slanchice.jpg",
+      price: 45, oldPrice: 0, badge: "", material: "лен и памук, памучна дантела",
+      text: "Жълта рокля без ръкави с дантела и дървени копчета. Създадена за скачане по леглото.",
+      sizes: ["1–2 г.","2–3 г.","3–4 г.","5–6 г."], occasions: ["daily","party"], styles: ["color","relaxed"] }
   ],
 
   /* ---------- ВИЗИИ ----------
@@ -130,6 +150,7 @@ window.CONTENT = {
       { image: "img/look-studio.jpg",   title: "Мързелива събота",  products: ["t2"] },
       { image: "img/look-planina.jpg",  title: "Към планината",     products: ["m2"] },
       { image: "img/look-selo.jpg",     title: "Лято при баба",     products: ["k1"] },
+      { image: "img/look-pole.jpg",     title: "Към полето",        products: ["k1"] },
       { image: "img/look-gradina.jpg",  title: "Разходка в градината", products: ["m3"] }
     ]
   },
